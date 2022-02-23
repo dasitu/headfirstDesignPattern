@@ -1,5 +1,9 @@
 package noPattern;
 
+import noPattern.ducks.Duck;
+import noPattern.ducks.MallardDuck;
+import noPattern.ducks.RedHeadDuck;
+import noPattern.ducks.RubberDuck;
 import org.junit.jupiter.api.Test;
 
 public class AllTest {

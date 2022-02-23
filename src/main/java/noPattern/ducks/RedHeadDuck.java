@@ -1,4 +1,4 @@
-package noPattern;
+package noPattern.ducks;
 
 public class RedHeadDuck extends Duck {
     public void display() {

@@ -1,4 +1,4 @@
-package noPattern;
+package noPattern.ducks;
 
 public abstract class Duck {
     public void quack() {
