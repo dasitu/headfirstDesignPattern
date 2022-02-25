@@ -1,18 +1,18 @@
 # Head First Design Pattern Notes
 
-##OO Basics  
+## OO Basics  
 * polymorphism
 * inheritance
 * abstraction
 * encapsulation
 
-##OO Principles
+## OO Principles
 1. Encapsulate what varies
 2. Favor composition over inheritance
 3. Program to interface, not implementations
 4. Strive for loosely coupled designs between objects that interact
 
-##OO Patterns  
+## OO Patterns  
 * **Strategy** - defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
 * **Observer** - defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
