@@ -11,11 +11,13 @@
 2. Favor composition over inheritance
 3. Program to interface, not implementations
 4. Strive for loosely coupled designs between objects that interact
+5. Classes should be open for extension, but closed for modification
 
 ## OO Patterns  
 * **Strategy** - defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
 * **Observer** - defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+* **Decorator** - attach additional responsibilities to an object dynamically. Decorator provide a flexible alternative to subclassing for extending functionality. 
 
 ## Explains
 * **Loose coupling** - When Two objects are loosely coupled, they can interact, but have very little knowledge of each other.
@@ -43,3 +45,14 @@ Strategy lets the algorithm vary independently from clients that use it.
   * Do not afraid to create your own Observable implementation if needed
   * Swing makes heavy use of the Observer Pattern as do many GUI frameworks
   * You will also find the pattern in many other places, including JavaBeans and RMI
+* Chapter 3
+  * Inheritance is one form of extension, but not necessarily the best way to achieve flexibility in our designs.
+  * In our design we should allow behavior to be extended without the need to modify existing code.
+  * Composition and delegation can often be used to add new behaviors at runtime.
+  * The Decorator Pattern provides and alternative to subclassing for extending behavior.
+  * The Decorator Pattern involves a set of decorator classes that are used to wrap concrete components.
+  * Decorator classes mirror the type of the components they decorate.(In fact, they are the same type as the components they decorate, either through inheritance or interface implementation.)
+  * Decorators change the behavior of their components by adding new functionality before and/or after(or even in place of) method calls to the component.
+  * You can wrap a component with any number of decorators.
+  * Decorators are typically transparent to the client of the components.That is, unless the client is relying on the component's concrete type.
+  * Decorators can result in many small objects in our design, and overuse can be complex.
