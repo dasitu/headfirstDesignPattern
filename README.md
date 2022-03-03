@@ -12,12 +12,14 @@
 3. Program to interface, not implementations
 4. Strive for loosely coupled designs between objects that interact
 5. Classes should be open for extension, but closed for modification
+6. Depend upon abstractions. Do not depend upon concrete classes
 
 ## OO Patterns  
 * **Strategy** - defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
 * **Observer** - defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 * **Decorator** - attach additional responsibilities to an object dynamically. Decorator provide a flexible alternative to subclassing for extending functionality. 
+* **Factory Method** - defines an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method let a class defer instantiation to subclass.
 
 ## Explains
 * **Loose coupling** - When Two objects are loosely coupled, they can interact, but have very little knowledge of each other.
